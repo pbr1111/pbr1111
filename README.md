@@ -6,7 +6,8 @@ I've created a hook-like function with my personal information so you can use it
 const usePol = () => ({
   aboutMe: [
     `I'm a full stack software engineer`,
-    `I'm in love with React so if I've a choice, I prefer to do frontend development`
+    `I'm in love with React so if I've a choice, I prefer to do frontend development`,
+    `I mainly work with the React and .NET stack`
   ],
   contact: {
     email: 'pbr1111@gmail.com',
