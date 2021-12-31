@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Pol
 
-I've created a "hook" with my personal information so you can use it in your components and get to know me better 😋
+I've created a hook-like function with my personal information so you can use it in your components and get to know me better 😋
 
 ```ts
 const usePol = () => ({
@@ -17,12 +17,12 @@ const usePol = () => ({
     currentStack: [
       'React ❤',
       'TypeScript',
-      'Emotion',
       'C#',
+      'Azure'
       'Git',
       'Docker',
       'Azure DevOps',
-      'Azure'
+      'Github'
     ],
     other: [
       'Next.js',
