@@ -18,12 +18,13 @@ const usePol = () => ({
     currentStack: [
       'React ❤',
       'TypeScript',
-      'C#',
-      'Azure'
+      '.NET',
+      'Azure',
       'Git',
       'Docker',
       'Azure DevOps',
-      'Github'
+      'Github', 
+      'SQL Server'
     ],
     other: [
       'Next.js',
