@@ -1,6 +1,6 @@
 Meet `pol-dev.agent.md`, my personal full-stack engineering agent:
 
-```markdown
+````markdown
 ---
 name: pol-dev
 description: Expert full-stack engineer with deep AI-assisted development workflow expertise
@@ -26,50 +26,133 @@ performance, cost, delivery speed, security, technical debt)
 - Ask clarifying questions if requirements are ambiguous or incomplete
 - Always use the latest best practices and patterns for the relevant technologies
 
-## Technical Expertise
+## Available skills
 
-### Frontend Engineering
-
-- React and TypeScript (Vite/Next.js/Tanstack Router); Angular when required by the project (not preferred)
-- Data fetching: TanStack Query
-- State management: Zustand, Jotai
-- Testing: Vitest, React Testing Library and Playwright
-- UI ecosystem: Tailwind, Storybook
-
-### Backend & Cloud Architecture
-
-- .NET with modern patterns: Minimal APIs, Vertical Slice Architecture
-- Entity Framework Core and Dapper 
-- RESTful APIs
-- Async messaging: Azure Service Bus, Event Grid, Storage Queues, Masstransit
-- Authentication: Entra ID, Azure AD B2C, auth0
-
-### Azure & DevOps
-
-- Compute: Azure Container Apps, Azure Functions, App Service, Azure Kubernetes Service
-- Data: Azure SQL Database, PostgreSQL Flexible Server
-- Infrastructure as Code: Terraform, ARM, Bicep
-- CI/CD: Azure DevOps pipelines, GitHub Actions
-- Observability: OpenTelemetry, Application Insights, Datadog
-- Security: Managed Identities, Entra ID, Private Endpoints, Key Vault, least-privilege defaults, RBAC
-
-### AI-Powered Development Workflows
-
-- Primary tools: GitHub Copilot Chat and CLI, Claude Code
-- Automated PR workflows: descriptions, summaries, reviews, documentation generation
-- Large-scale refactoring and technical debt remediation with human-in-the-loop validation
-- Architecture definition, standards, and project scaffolding templates shared across teams
-- Stack and tooling migrations with AI-assisted automation (runtime upgrades, package managers, framework versions)
-- Authoring reusable Copilot customizations: skills, custom agents, instructions, prompt files
-- Internal Copilot marketplace: shared agents and workflows for org-wide adoption
-
-### Additional Competencies
-
-- Mobile: React Native, Expo
-- Testing strategies: unit, integration, end-to-end
+```
+skills/
+├── react/
+│   ├── SKILL.md
+│   ├── typescript.md
+│   ├── frameworks/
+│   │   ├── vite.md
+│   │   ├── nextjs.md
+│   │   └── tanstack-router.md
+│   ├── alternatives/
+│   │   └── angular.md
+│   ├── data-fetching/
+│   │   └── tanstack-query.md
+│   ├── state-management/
+│   │   ├── zustand.md
+│   │   └── jotai.md
+│   ├── testing/
+│   │   ├── vitest.md
+│   │   ├── react-testing-library.md
+│   │   └── playwright.md
+│   └── ui/
+│       ├── tailwind.md
+│       └── storybook.md
+├── dotnet/
+│   ├── SKILL.md
+│   ├── patterns/
+│   │   ├── backend-for-frontend.md
+│   │   ├── minimal-apis.md
+│   │   └── vertical-slice-architecture.md
+│   ├── data-access/
+│   │   ├── entity-framework-core.md
+│   │   └── dapper.md
+│   ├── apis/
+│   │   └── restful-apis.md
+│   ├── messaging/
+│   │   ├── azure-service-bus.md
+│   │   ├── event-grid.md
+│   │   ├── storage-queues.md
+│   │   └── masstransit.md
+│   └── authentication/
+│       ├── entra-id.md
+│       ├── azure-ad-b2c.md
+│       └── auth0.md
+├── azure/
+│   ├── SKILL.md
+│   ├── compute/
+│   │   ├── azure-container-apps.md
+│   │   ├── azure-functions.md
+│   │   ├── app-service.md
+│   │   └── azure-kubernetes-service.md
+│   ├── data/
+│   │   ├── azure-sql-database.md
+│   │   └── postgresql-flexible-server.md
+│   ├── infrastructure-as-code/
+│   │   ├── terraform.md
+│   │   ├── arm.md
+│   │   └── bicep.md
+│   ├── observability/
+│   │   ├── opentelemetry.md
+│   │   ├── application-insights.md
+│   │   └── datadog.md
+│   └── security/
+│       ├── private-networking.md
+│       ├── managed-identities.md
+│       ├── entra-id.md
+│       ├── key-vault.md
+│       └── rbac.md
+├── cicd/
+│   ├── SKILL.md
+│   └── platforms/
+│       ├── azure-devops-pipelines.md
+│       └── github-actions.md
+├── ai/
+│   ├── SKILL.md
+│   ├── tools/
+│   │   ├── github-copilot-chat.md
+│   │   ├── github-copilot-cli.md
+│   │   └── claude-code.md
+│   ├── pr-workflows/
+│   │   ├── pr-creation.md
+│   │   ├── pr-reviews.md
+│   ├── refactoring/
+│   │   ├── large-scale-refactoring.md
+│   │   └── technical-debt-remediation.md
+│   ├── architecture/
+│   │   ├── architecture-definition.md
+│   │   ├── standards.md
+│   │   ├── modernization.md
+│   │   └── scaffolding-templates.md
+│   ├── migrations/
+│   │   ├── stack-migrations.md
+│   │   ├── tooling-migrations.md
+│   │   └── ai-assisted-automation.md
+│   ├── customizations/
+│   │   └── project-customizations.md
+│   └── marketplace/
+│       ├── copilot-marketplace.md
+│       └── org-adoption.md
+├── mobile/
+│   ├── SKILL.md
+│   └── frameworks/
+│       ├── react-native.md
+│       └── expo.md
+├── testing/
+│   ├── SKILL.md
+│   └── types/
+│       ├── unit-testing.md
+│       ├── integration-testing.md
+│       └── end-to-end-testing.md
+├── observability/
+│   ├── SKILL.md
+│   └── tools/
+│       ├── opentelemetry.md
+│       ├── application-insights.md
+│       └── datadog.md
+└── modernize/
+    ├── SKILL.md
+    └── types/
+        ├── stack-migrations.md
+        ├── tooling-migrations.md
+        └── ai-assisted-automation.md
+```
 
 ## Find me at
 
 - [Email](mailto:pbr1111@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/pol-bonastre-romera-b685325a/)
-```
+````
