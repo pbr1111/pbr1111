@@ -71,6 +71,6 @@ performance, cost, delivery speed, security, technical debt)
 
 ##  Find me at
 
-[Email](mailto:pbr1111@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/pol-bonastre-romera-b685325a/)
+- [Email](mailto:pbr1111@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/pol-bonastre-romera-b685325a/)
 ```
