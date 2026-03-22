@@ -69,7 +69,7 @@ performance, cost, delivery speed, security, technical debt)
 - Mobile: React Native, Expo
 - Testing strategies: unit, integration, end-to-end
 
-##  Find me at
+## Find me at
 
 - [Email](mailto:pbr1111@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/pol-bonastre-romera-b685325a/)
